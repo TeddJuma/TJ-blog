@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content="Modern technology blog featuring the latest in tech news, insights, and innovations">
+    <meta name="keywords" content="technology, tech blog, innovation, software, hardware, AI, programming">
+    <meta property="og:title" content="Modern Tech Blog">
+    <meta property="og:description" content="Modern technology blog featuring the latest in tech news, insights, and innovations">
+    <!-- Social Media  -->
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Modern Tech Blog">
+    <meta name="twitter:description" content="Modern technology blog featuring the latest in tech news, insights, and innovations">
+    <title>Tedd's Tech Blog</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="styles/globals.css" rel="stylesheet">
+    <link href="styles/animations.css" rel="stylesheet">
+    <link href="styles/components.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+    <div id="root"></div>
+
+    <!-- Utils -->
+    <script type="text/babel" src="utils/theme.js"></script>
+    <script type="text/babel" src="utils/articleService.js"></script>
+
+    <!-- Components -->
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/SearchBar.js"></script>
+    <script type="text/babel" src="components/ArticleCard.js"></script>
+    <script type="text/babel" src="components/FeaturedPost.js"></script>
+    <script type="text/babel" src="components/SocialShare.js"></script>
+
+    <!-- Pages -->
+    <script type="text/babel" src="pages/Home.js"></script>
+    <script type="text/babel" src="pages/Articles.js"></script>
+    <script type="text/babel" src="pages/About.js"></script>
+    <script type="text/babel" src="pages/Contact.js"></script>
+    <script type="text/babel" src="pages/ArticlePage.js"></script>
+
+    <!-- Main App -->
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
