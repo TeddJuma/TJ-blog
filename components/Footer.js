@@ -4,7 +4,7 @@ function Footer() {
             <div className="container mx-auto px-4 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div data-name="footer-about">
-                        <h3 className="text-xl font-bold mb-4">Modern Tech Blog</h3>
+                        <h3 className="text-xl font-bold mb-4">Tedd's Tech Blog</h3>
                         <p className="text-gray-400">
                         Embracing creativity and innovation from the heart of Kenya—let's connect!
                         </p>
